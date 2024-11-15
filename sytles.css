@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.cabecalho {
+    height: 10vh;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+}
+
+.principal {
+    height: 120vh;
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    margin-top: 2vh;
+    margin-left: 2.6vw;
+    height: 75vh;
+    width: 62.4vw;
+    border-radius: 2vh;
+}
+
+#titulo-video {
+    margin-left: 2.6vw;
+    margin-top: 2vh;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-container {
+    height: 7vh;
+    margin-left: 2.6vw;
+    width: 62.4;
+    display: flex;
+    margin-top: 1.5vh;
+}
+
+.icone {
+    background-color: black;
+    height: 6.5vh;
+    width: 3vw;
+    border-radius: 4vh;
+}
+
+.inscritos {
+    margin-left: 1vw;
+}
+
+#titulo-canal {
+    font-size: 2.5vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sub-titulo-canal {
+    font-size: 2.2vh;
+    color: rgb(123, 123, 123);
+}
+
+#button-inscrever {
+    background-color: black;
+    color: white;
+    font-size: 2.5vh;
+    margin-left: 2vw;
+    height: 5.5vh;
+    width: 9vw;
+    border-radius: 4vh;
+}
+
+#button-inscrever:hover {
+    opacity: 0.9;
+}
+
+.curtidas {
+    height: 5.5vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15vw;
+    align-items: center;
+
+}
+
+#button-curtidas {
+    height: 5.2vh;
+    width: 7vw;
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+    border: 0;
+    border-radius: 2.5vh 0 0 2.5vh;
+}
+
+#button-curtidas:hover {
+    background-color: rgb(220, 219, 219);
+}
+
+.like {
+    height: 3vh;
+    margin-left: 1vw;
+    margin-right: 0.6vw;
+}
+
+#button-deslike {
+    height: 5.2vh;
+    width: 4vw;
+    border: 0;
+    border-radius: 0 2.5vh 2.5vh 0;
+}
+
+#button-deslike:hover {
+    background-color: rgb(220, 219, 219);
+}
+
+.deslike {
+    height: 3vh;
+}
+
+#button-compartilhar {
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    height: 5.2vh;
+    width: 10vw;
+    font-size: 2vh;
+    border: 0;
+    border-radius: 2.5vh;
+}
+
+#button-compartilhar:hover {
+    background-color: rgb(220, 219, 219);
+}
+
+.icone-compartilhar {
+    height: 3vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.icone-pontos {
+    margin-left: 0.5vw;
+    height: 5.2vh;
+    width: 2.5vw;
+    border-radius: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icone-pontos:hover {
+    background-color: rgb(220, 219, 219);
+}
+
+#icone-tres-pontos {
+    margin-top: 0.2vw;
+    height: 3.5vh;
+}
+
+.recomendacao {
+    background-color: burlywood;
+    height: 120vh;
+    width: 34%;
+}
